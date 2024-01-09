@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc66ce4713a312541a01724571a58906, type: 3}
+  m_Name: AudioClipSO
+  m_EditorClassIdentifier: 
+  titleClip: {fileID: 8300000, guid: 4daea86588f9f3e458f7fc5902dfea19, type: 3}
+  moveSound: {fileID: 8300000, guid: b0494861b52aa5c46ac223a264e8a012, type: 3}
+  carSound: {fileID: 8300000, guid: 6b24bae91b57b9c4cb6070842457a77c, type: 3}
+  coinSound: {fileID: 8300000, guid: 5c20ff4851d12324dbf65aa953772558, type: 3}
+  gameOverSound: {fileID: 8300000, guid: 77f5814581551394d9c68a9d8237cd90, type: 3}
+  jumpSound: {fileID: 8300000, guid: b0f44ba6124c4e945805950286123fa9, type: 3}
