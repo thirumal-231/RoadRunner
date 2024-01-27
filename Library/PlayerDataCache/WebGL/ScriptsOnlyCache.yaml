@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - Obstacles
     - PlayerController
     - SceneManagement
+    - ScoreManager
     - TextUpdater
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
@@ -28,8 +29,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -43,6 +46,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
   serializedClasses:
     DOTween:
     - DG.Tweening.Core.DOTweenSettings/ModulesSetup
@@ -136,6 +140,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -175,13 +181,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20364}
     - Class: 114
-      Script: {instanceID: 20486}
+      Script: {instanceID: 20488}
     - Class: 114
-      Script: {instanceID: 20982}
+      Script: {instanceID: 20984}
     - Class: 114
-      Script: {instanceID: 21918}
+      Script: {instanceID: 21920}
     - Class: 114
-      Script: {instanceID: 22004}
+      Script: {instanceID: 22006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -191,6 +197,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -232,6 +242,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16668}
     - Class: 114
+      Script: {instanceID: 16790}
+    - Class: 114
       Script: {instanceID: 17076}
     - Class: 114
       Script: {instanceID: 17282}
@@ -250,13 +262,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20486}
+      Script: {instanceID: 20432}
     - Class: 114
-      Script: {instanceID: 21190}
+      Script: {instanceID: 20488}
     - Class: 114
-      Script: {instanceID: 21932}
+      Script: {instanceID: 21192}
     - Class: 114
-      Script: {instanceID: 22004}
+      Script: {instanceID: 21934}
+    - Class: 114
+      Script: {instanceID: 22006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -440,7 +454,7 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
-      Hash: aa4de33f5830a1e9278f7b280be69f01
+      Hash: f8b1e0141abb5df4ec0381e18fb1180f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -900,6 +914,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Obstacles
+  - hash:
+      serializedVersion: 2
+      Hash: 353309ecd31afdde7c10a6bbf30ea7bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreManager
   - hash:
       serializedVersion: 2
       Hash: 9690f760294698c29b1bee7d9b7bd452

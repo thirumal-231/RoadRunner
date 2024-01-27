@@ -293,6 +293,7 @@
 "Assets/Scripts/ObstacleSpawner.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneManagement.cs"
+"Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/TextUpdater.cs"
 -langversion:9.0
 

@@ -108,6 +108,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isGameOver)
         {
+            ScoreManager.Instance.SaveHighScore();
             return;
         }
 
@@ -115,7 +116,6 @@ public class PlayerController : MonoBehaviour
         {
             audioSource.PlayOneShot(audioClips.coinSound);
 
-            Debug.Log(other.gameObject.name);
             Destroy(other.gameObject);
             OnCoinTouch?.Invoke();
         }

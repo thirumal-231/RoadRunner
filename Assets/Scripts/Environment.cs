@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Environment : MonoBehaviour
 {
-    public float worldSpeed = 20f;
+    //public float worldSpeed = 30f;
 
+    //private float speedIncrement = 0.01f;
     private Vector3 startPos;
     private float roadLength = 240f;
 
@@ -24,11 +25,14 @@ public class Environment : MonoBehaviour
 
     void Update()
     {
-        transform.Translate( Vector3.back * Time.deltaTime * worldSpeed, Space.World);
+        
+        transform.Translate( Vector3.back * Time.deltaTime * ScoreManager.Instance.worldSpeed, Space.World);
         if(transform.position.z <= -roadLength)
         {
             transform.position = startPos;
         }
+
+        //worldSpeed += speedIncrement;
     }
 
     void StopWorldOnGameOver()

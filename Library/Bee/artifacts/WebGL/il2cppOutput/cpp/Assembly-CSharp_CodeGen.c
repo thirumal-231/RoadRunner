@@ -120,43 +120,49 @@ extern void PlayerController_HandleHorizontalMovement_mCB2D12EAA6016F93468EAB2EE
 extern void PlayerController_JumpPlayer_mDF53F83DBB27DC7AF53B46A266DA9758FFED76AA (void);
 // 0x00000036 System.Void PlayerController::OnTriggerEnter(UnityEngine.Collider)
 extern void PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1 (void);
-// 0x00000037 System.Void PlayerController::.ctor()
+// 0x00000037 System.Void PlayerController::SwitchParticles()
+extern void PlayerController_SwitchParticles_m3DF06770435633CAE1E2328664BBB2A78CBA7FAC (void);
+// 0x00000038 System.Void PlayerController::.ctor()
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
-// 0x00000038 System.Void SceneManagement::Start()
+// 0x00000039 System.Void SceneManagement::Start()
 extern void SceneManagement_Start_m7DACA6D4F12DD5A3B6F7A7CE80E0FBB349B92F53 (void);
-// 0x00000039 System.Void SceneManagement::Update()
+// 0x0000003A System.Void SceneManagement::Update()
 extern void SceneManagement_Update_mD47419F13459DD8FA64E90364137AA0A5F9EB180 (void);
-// 0x0000003A System.Void SceneManagement::LoadGameSequence()
+// 0x0000003B System.Void SceneManagement::LoadGameSequence()
 extern void SceneManagement_LoadGameSequence_mBAD6CA8197CEF94C52DC498E89824C255B92D517 (void);
-// 0x0000003B System.Void SceneManagement::LoadGame()
+// 0x0000003C System.Void SceneManagement::LoadGame()
 extern void SceneManagement_LoadGame_m3E87F315F35E4619255EABFDE6C0E124C557B81F (void);
-// 0x0000003C System.Void SceneManagement::LoadTitleScene()
+// 0x0000003D System.Void SceneManagement::LoadTitleScene()
 extern void SceneManagement_LoadTitleScene_m398E6A994CC7BAC81160D464C8A165B0CF5BE00F (void);
-// 0x0000003D System.Void SceneManagement::QuitApplication()
+// 0x0000003E System.Void SceneManagement::QuitApplication()
 extern void SceneManagement_QuitApplication_m3AD7C28A333EE19D674F8F41C6081BAADB0C9A14 (void);
-// 0x0000003E System.Void SceneManagement::.ctor()
+// 0x0000003F System.Void SceneManagement::.ctor()
 extern void SceneManagement__ctor_m4BF527C2FDB7A148441317813DDE923896E275F2 (void);
-// 0x0000003F System.Void TextUpdater::OnEnable()
+// 0x00000040 System.Void ScoreManager::Awake()
+extern void ScoreManager_Awake_mB3BB0D0448D4C240C4572B7395AF328615E76D8A (void);
+// 0x00000041 System.Void ScoreManager::.ctor()
+extern void ScoreManager__ctor_mE5C264C34A9CBBAB72DCF99CCCC9841AF8F9FEE6 (void);
+// 0x00000042 System.Void TextUpdater::OnEnable()
 extern void TextUpdater_OnEnable_mFCC317440C874BC91C88CA74FA4A68B9A8826C28 (void);
-// 0x00000040 System.Void TextUpdater::OnDisable()
+// 0x00000043 System.Void TextUpdater::OnDisable()
 extern void TextUpdater_OnDisable_m8E02C075F8E8A2C27AAD4E2BAF3CC5C1B495CF97 (void);
-// 0x00000041 System.Void TextUpdater::Start()
+// 0x00000044 System.Void TextUpdater::Start()
 extern void TextUpdater_Start_m84D7B8308D1E08B34DF8FCC781FE146CE55327A2 (void);
-// 0x00000042 System.Void TextUpdater::Update()
+// 0x00000045 System.Void TextUpdater::Update()
 extern void TextUpdater_Update_mE8626BD841CAC32BE9E6AA48710FE55E99B895E4 (void);
-// 0x00000043 System.Void TextUpdater::UpdateBarriers()
+// 0x00000046 System.Void TextUpdater::UpdateBarriers()
 extern void TextUpdater_UpdateBarriers_m9BB49449C3941E9D111CAB0D07B7339B99D1854D (void);
-// 0x00000044 System.Void TextUpdater::UpdateTimer()
+// 0x00000047 System.Void TextUpdater::UpdateTimer()
 extern void TextUpdater_UpdateTimer_mC7CAAA1645375AB0CF7E99092777B105900085BA (void);
-// 0x00000045 System.Void TextUpdater::UpdateCoins()
+// 0x00000048 System.Void TextUpdater::UpdateCoins()
 extern void TextUpdater_UpdateCoins_m8BB1C0BA768A5CA047C9A1E31B7B5EE7C8E499C2 (void);
-// 0x00000046 System.Void TextUpdater::StopUpdateOnGameOver()
+// 0x00000049 System.Void TextUpdater::StopUpdateOnGameOver()
 extern void TextUpdater_StopUpdateOnGameOver_m5FEAE0D9FAAB848051D064D16D9707808A704F95 (void);
-// 0x00000047 System.Void TextUpdater::WriteScoreIntoSO()
+// 0x0000004A System.Void TextUpdater::WriteScoreIntoSO()
 extern void TextUpdater_WriteScoreIntoSO_m9DD69C2E0A2C638C2C170CE6ED1671743266B588 (void);
-// 0x00000048 System.Void TextUpdater::.ctor()
+// 0x0000004B System.Void TextUpdater::.ctor()
 extern void TextUpdater__ctor_m9BBC1E8727AA8893FF83B45AEE2BDCA8E232B885 (void);
-static Il2CppMethodPointer s_methodPointers[72] = 
+static Il2CppMethodPointer s_methodPointers[75] = 
 {
 	AudioClips__ctor_m8836BD39EEEA2770F4CFD569527DC5E90F9D51BD,
 	AudioManager_Start_m3C0FEAF19F58B6D28A9E6D815B3AAF94FEA21B69,
@@ -212,6 +218,7 @@ static Il2CppMethodPointer s_methodPointers[72] =
 	PlayerController_HandleHorizontalMovement_mCB2D12EAA6016F93468EAB2EE823F3185A60BE50,
 	PlayerController_JumpPlayer_mDF53F83DBB27DC7AF53B46A266DA9758FFED76AA,
 	PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1,
+	PlayerController_SwitchParticles_m3DF06770435633CAE1E2328664BBB2A78CBA7FAC,
 	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
 	SceneManagement_Start_m7DACA6D4F12DD5A3B6F7A7CE80E0FBB349B92F53,
 	SceneManagement_Update_mD47419F13459DD8FA64E90364137AA0A5F9EB180,
@@ -220,6 +227,8 @@ static Il2CppMethodPointer s_methodPointers[72] =
 	SceneManagement_LoadTitleScene_m398E6A994CC7BAC81160D464C8A165B0CF5BE00F,
 	SceneManagement_QuitApplication_m3AD7C28A333EE19D674F8F41C6081BAADB0C9A14,
 	SceneManagement__ctor_m4BF527C2FDB7A148441317813DDE923896E275F2,
+	ScoreManager_Awake_mB3BB0D0448D4C240C4572B7395AF328615E76D8A,
+	ScoreManager__ctor_mE5C264C34A9CBBAB72DCF99CCCC9841AF8F9FEE6,
 	TextUpdater_OnEnable_mFCC317440C874BC91C88CA74FA4A68B9A8826C28,
 	TextUpdater_OnDisable_m8E02C075F8E8A2C27AAD4E2BAF3CC5C1B495CF97,
 	TextUpdater_Start_m84D7B8308D1E08B34DF8FCC781FE146CE55327A2,
@@ -231,86 +240,89 @@ static Il2CppMethodPointer s_methodPointers[72] =
 	TextUpdater_WriteScoreIntoSO_m9DD69C2E0A2C638C2C170CE6ED1671743266B588,
 	TextUpdater__ctor_m9BBC1E8727AA8893FF83B45AEE2BDCA8E232B885,
 };
-static const int32_t s_InvokerIndices[72] = 
+static const int32_t s_InvokerIndices[75] = 
 {
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	5611,
-	5611,
-	3749,
-	3749,
-	3062,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	5611,
-	5611,
-	5611,
-	5611,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3062,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
-	3749,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	5615,
+	5615,
+	3752,
+	3752,
+	3064,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	5615,
+	5615,
+	5615,
+	5615,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3064,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
+	3752,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	72,
+	75,
 	s_methodPointers,
 	0,
 	NULL,

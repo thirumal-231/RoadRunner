@@ -2,7 +2,14 @@ using UnityEngine;
 
 public class GoldCoin : MonoBehaviour
 {
-    [SerializeField] float rotationSpeed = 3f;
+
+    public static GoldCoin Instance;
+
+    
+    private float rotationSpeed = 3f;
+
+    //private float speed = 30f;
+    //private float speedIncrement = 0.01f;
 
     //private void OnEnable()
     //{
@@ -16,17 +23,19 @@ public class GoldCoin : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        transform.Rotate(0, rotationSpeed, 0,Space.World);
-        transform.Translate( Vector3.back * Time.deltaTime * 30f, Space.World );
+        transform.Rotate(0, rotationSpeed, 0, Space.World);
+        transform.Translate(Vector3.back * Time.deltaTime * ScoreManager.Instance.worldSpeed, Space.World);
 
-        if( transform.position.z <= -300f )
+        //speed += speedIncrement;
+
+        if (transform.position.z <= -300f)
         {
-            Destroy( gameObject );
+            Destroy(gameObject);
         }
     }
 

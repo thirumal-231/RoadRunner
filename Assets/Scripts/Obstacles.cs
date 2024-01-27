@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class Obstacles : MonoBehaviour
 {
-    [SerializeField] float speed = 20f;
+    //[SerializeField] float speed = 30f;
+
+    //private float speedIncrement = 0.01f;
 
     
     void Start()
@@ -13,7 +15,8 @@ public class Obstacles : MonoBehaviour
 
     void Update()
     {
-        transform.Translate( Vector3.back * speed * Time.deltaTime, Space.World );
+        transform.Translate( Vector3.back * ScoreManager.Instance.worldSpeed * Time.deltaTime, Space.World );
+        //speed += speedIncrement;
         
     }
 

@@ -7,7 +7,6 @@ public class TextUpdater : MonoBehaviour
     [SerializeField] TextMeshProUGUI barriersText;
     [SerializeField] TextMeshProUGUI timeText;
 
-    public GameOverScore runnerScore;
 
     private int barriersPassed = 0;
     private int coins = 0;
@@ -36,13 +35,17 @@ public class TextUpdater : MonoBehaviour
     void Update()
     {
         UpdateTimer();
-        WriteScoreIntoSO();
     }
 
     void UpdateBarriers()
     {
         barriersPassed++;
         barriersText.text = $"{barriersPassed}";
+
+        if(barriersPassed > ScoreManager.Instance.highScore) {
+            ScoreManager.Instance.highScore = barriersPassed;
+        }
+
     }
 
     void UpdateTimer()
@@ -62,15 +65,9 @@ public class TextUpdater : MonoBehaviour
     // unsubscribe when gameover
     void StopUpdateOnGameOver()
     {
+        ScoreManager.Instance.SaveHighScore();
+        DisplayScore displayScore = FindObjectOfType<DisplayScore>();
+        displayScore.currentScore = barriersPassed;
         Destroy( gameObject.GetComponent<TextUpdater>() );
-    }
-
-    void WriteScoreIntoSO()
-    {
-        runnerScore.coins = coins;
-        runnerScore.cars = barriersPassed;
-        runnerScore.time = timeText.text;
-
-        runnerScore.elapsedTime = elapsedTime;
     }
 }
