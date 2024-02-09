@@ -42,7 +42,7 @@ public class ScoreManager : MonoBehaviour
         // convert the instance into json
         string json = JsonUtility.ToJson(saveData);
 
-        string path = Application.dataPath + "/savefile.json";
+        string path = Application.persistentDataPath + "/savefile.json";
 
         // write string into a file
         File.WriteAllText( path, json );
@@ -51,7 +51,7 @@ public class ScoreManager : MonoBehaviour
 
     public void LoadScore()
     {
-        string path = Application.dataPath + "/savefile.json";
+        string path = Application.persistentDataPath + "/savefile.json";
 
         if(File.Exists(path))
         {

@@ -9323,7 +9323,7 @@ CATCH_0024:
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_9;
 		L_9 = CADSerializer_SerializeMessage_m4707EBA30032C671C83E35C55E85925BE1397A80(L_8, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10;
-		L_10 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_9);
+		L_10 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(27 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_9);
 		(&V_0)->___arrResponse_0 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___arrResponse_0), (void*)L_10);
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -9382,7 +9382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CrossAppDomainSink_SyncProcess
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_4;
 			L_4 = CADSerializer_SerializeMessage_m4707EBA30032C671C83E35C55E85925BE1397A80(L_3, NULL);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5;
-			L_5 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_4);
+			L_5 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(27 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_4);
 			V_2 = L_5;
 		}
 
@@ -13963,7 +13963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CADMessageBase__ctor_m2569D4C1AA47B18207
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_3;
 		L_3 = CADSerializer_SerializeObject_m693394374F6AFCC73C5A3756DD96AD2DB725F3B8(L_2, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
-		L_4 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_3);
+		L_4 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(27 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_3);
 		__this->___serializedMethod_4 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___serializedMethod_4), (void*)L_4);
 		return;
@@ -15525,7 +15525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CADMethodCallMessage__ctor_m4777CF013372
 		V_1 = L_13;
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_14 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15;
-		L_15 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_14);
+		L_15 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(27 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_14);
 		((CADMessageBase_t69560B642B5084072E1EFFA7F1E736942B457DC0*)__this)->____serializedArgs_1 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&((CADMessageBase_t69560B642B5084072E1EFFA7F1E736942B457DC0*)__this)->____serializedArgs_1), (void*)L_15);
 	}
@@ -15744,7 +15744,7 @@ IL_0085:
 		V_1 = L_27;
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_28 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_29;
-		L_29 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_28);
+		L_29 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(27 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_28);
 		((CADMessageBase_t69560B642B5084072E1EFFA7F1E736942B457DC0*)__this)->____serializedArgs_1 = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&((CADMessageBase_t69560B642B5084072E1EFFA7F1E736942B457DC0*)__this)->____serializedArgs_1), (void*)L_29);
 	}

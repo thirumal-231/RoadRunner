@@ -21,6 +21,7 @@ public class SceneManagement : MonoBehaviour
     }
     public void LoadGame()
     {
+        ScoreManager.Instance.worldSpeed = 30;
         SceneManager.LoadScene( gameSceneBuildIndex );
     }
 

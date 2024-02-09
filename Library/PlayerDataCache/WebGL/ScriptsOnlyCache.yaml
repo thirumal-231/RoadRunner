@@ -2,11 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AudioClips
-    - AudioManager
     - DisplayScore
     - Environment
     - FadeUi
-    - GameOverScore
     - GoldCoin
     - GoldSpawner
     - ObstacleDestroyer
@@ -29,10 +27,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -46,7 +42,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.RawImage
   serializedClasses:
     DOTween:
     - DG.Tweening.Core.DOTweenSettings/ModulesSetup
@@ -151,43 +146,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16316}
     - Class: 114
-      Script: {instanceID: 16508}
+      Script: {instanceID: 16660}
     - Class: 114
-      Script: {instanceID: 16662}
+      Script: {instanceID: 17074}
     - Class: 114
-      Script: {instanceID: 17076}
+      Script: {instanceID: 17086}
     - Class: 114
-      Script: {instanceID: 17088}
+      Script: {instanceID: 17142}
     - Class: 114
-      Script: {instanceID: 17144}
+      Script: {instanceID: 17280}
     - Class: 114
-      Script: {instanceID: 17282}
+      Script: {instanceID: 17552}
     - Class: 114
-      Script: {instanceID: 17554}
+      Script: {instanceID: 17564}
     - Class: 114
-      Script: {instanceID: 17566}
+      Script: {instanceID: 18586}
     - Class: 114
-      Script: {instanceID: 18448}
+      Script: {instanceID: 18728}
     - Class: 114
-      Script: {instanceID: 18590}
+      Script: {instanceID: 19480}
     - Class: 114
-      Script: {instanceID: 18732}
+      Script: {instanceID: 20022}
     - Class: 114
-      Script: {instanceID: 19484}
+      Script: {instanceID: 20170}
     - Class: 114
-      Script: {instanceID: 20026}
+      Script: {instanceID: 20360}
     - Class: 114
-      Script: {instanceID: 20174}
+      Script: {instanceID: 20428}
     - Class: 114
-      Script: {instanceID: 20364}
+      Script: {instanceID: 20484}
     - Class: 114
-      Script: {instanceID: 20488}
+      Script: {instanceID: 20980}
     - Class: 114
-      Script: {instanceID: 20984}
+      Script: {instanceID: 21916}
     - Class: 114
-      Script: {instanceID: 21920}
-    - Class: 114
-      Script: {instanceID: 22006}
+      Script: {instanceID: 22002}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -240,37 +233,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16086}
     - Class: 114
-      Script: {instanceID: 16668}
+      Script: {instanceID: 16666}
     - Class: 114
-      Script: {instanceID: 16790}
+      Script: {instanceID: 17074}
     - Class: 114
-      Script: {instanceID: 17076}
+      Script: {instanceID: 17280}
     - Class: 114
-      Script: {instanceID: 17282}
+      Script: {instanceID: 17564}
     - Class: 114
-      Script: {instanceID: 17566}
+      Script: {instanceID: 17890}
     - Class: 114
-      Script: {instanceID: 17892}
+      Script: {instanceID: 18550}
     - Class: 114
-      Script: {instanceID: 18554}
+      Script: {instanceID: 18802}
     - Class: 114
-      Script: {instanceID: 18806}
+      Script: {instanceID: 19480}
     - Class: 114
-      Script: {instanceID: 19484}
+      Script: {instanceID: 20022}
     - Class: 114
-      Script: {instanceID: 20026}
+      Script: {instanceID: 20170}
     - Class: 114
-      Script: {instanceID: 20174}
+      Script: {instanceID: 20428}
     - Class: 114
-      Script: {instanceID: 20432}
+      Script: {instanceID: 20484}
     - Class: 114
-      Script: {instanceID: 20488}
+      Script: {instanceID: 21188}
     - Class: 114
-      Script: {instanceID: 21192}
+      Script: {instanceID: 21930}
     - Class: 114
-      Script: {instanceID: 21934}
-    - Class: 114
-      Script: {instanceID: 22006}
+      Script: {instanceID: 22002}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -352,19 +343,13 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 06b6695fb35fbb188fd17a53d2611b00
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameOverScore
-  - hash:
-      serializedVersion: 2
       Hash: 4763159aa2d72ed796c2398564a4d18d
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 96a85026fbd0b9f782b21806a3497345
+      Hash: a1399d5ff70ec1ddc2c0b441eb22546c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
@@ -670,12 +655,6 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 29365633cccaa21b1474cad423805a6e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AudioManager
-  - hash:
-      serializedVersion: 2
       Hash: 6a9516770b070951680a95390b9098a5
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -718,7 +697,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: cd327109bf017b72dcd03e01ea5d01ad
+      Hash: 9582f201ec4a6e761bf32dd6e2bcab8d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TextUpdater
@@ -736,7 +715,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 528db5ab8c142b388595e4e940295660
+      Hash: 9b0cfb16fd651de58ef7eb59b50db95d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DisplayScore
@@ -910,13 +889,13 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
-      Hash: fea9093306588521cc9f1e5323b57c8d
+      Hash: 9f2d17a03b4eb08accf9b5c58fe2b334
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Obstacles
   - hash:
       serializedVersion: 2
-      Hash: 353309ecd31afdde7c10a6bbf30ea7bd
+      Hash: 4355d24099b7e8340f23511d33df22c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
@@ -1120,7 +1099,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 931e62a1b52f6065651c7b7c95c277fa
+      Hash: 369a066cf80ecc0f2392f3c71f1f18fb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GoldCoin
@@ -1170,4 +1149,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
   - Assets/Scenes/RoadRunnerMainScene.unity
-  playerPath: C:/Users/THIRUMAL-231/Desktop/RoadRunnerWebGLBuild
+  playerPath: C:/Users/THIRUMAL-231/Desktop/RoadRunnerBuild

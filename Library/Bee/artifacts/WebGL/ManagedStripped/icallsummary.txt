@@ -22,6 +22,7 @@ UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
+UnityEngine.Application::get_persistentDataPath
 UnityEngine.Application::Quit
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
@@ -318,6 +319,8 @@ UnityEngine.Input::get_mouseScrollDelta_Injected
 UnityEngine.Input::set_compositionCursorPos_Injected
 UnityEngine.Input::set_imeCompositionMode
 UnityEngine.Input::get_imeCompositionMode
+UnityEngine.JsonUtility::FromJsonInternal
+UnityEngine.JsonUtility::ToJsonInternal
 UnityEngine.Light::get_useColorTemperature
 UnityEngine.Light::get_bounceIntensity
 UnityEngine.Light::get_colorTemperature
@@ -422,6 +425,7 @@ UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
 UnityEngine.Object::Internal_InstantiateSingle_Injected
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
 UnityEngine.ParticleSystem::EmitOld_Internal

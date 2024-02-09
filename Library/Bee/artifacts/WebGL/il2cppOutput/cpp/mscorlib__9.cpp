@@ -12946,7 +12946,7 @@ IL_0013:
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_3;
 		L_3 = CADSerializer_SerializeObject_m693394374F6AFCC73C5A3756DD96AD2DB725F3B8(L_2, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
-		L_4 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_3);
+		L_4 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(27 /* System.Byte[] System.IO.MemoryStream::GetBuffer() */, L_3);
 		return L_4;
 	}
 }
@@ -20972,7 +20972,7 @@ IL_006c:
 	{
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_18 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19;
-		L_19 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(29 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_18);
+		L_19 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(30 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_18);
 		return L_19;
 	}
 }
@@ -21174,7 +21174,7 @@ IL_0032:
 				{
 					MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_8 = V_1;
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9;
-					L_9 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(29 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_8);
+					L_9 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(30 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_8);
 					V_0 = L_9;
 					return;
 				}
